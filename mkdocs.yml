@@ -1,0 +1,11 @@
+site_name: Digital Communities
+site_url: https://fuas-dverse.github.io
+site_description: Reader for the 2024 Spring Semester project for Digital Communities
+site_author: Xokomola
+repo_url: https://github.com/fuas-dverse/fuas-dverse.github.io
+edit_uri_template: 'blob/main/docs/{path}'
+remote_branch: gh-pages
+theme:
+  name: material
+nav:
+  - Introduction: introduction.md

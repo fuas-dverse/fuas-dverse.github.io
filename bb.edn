@@ -1,0 +1,15 @@
+{:paths ["scripts"]
+ :min-bb-version "1.3.188"
+ :tasks {clean {:doc "Remove generated files"
+                :requires ([babashka.fs :as fs])
+                :task (do (fs/delete-tree "site")
+                          (fs/delete-tree "megalinter-reports"))}
+         build {:doc "Build book"
+                :task (shell "mkdocs build")}
+         serve {:doc "Start local server"
+                :task (shell "mkdocs serve")}
+         lint {:doc "Run megalinter"
+               :task (shell "npx
+         mega-linter-runner --flavor documentation --env
+         \"'MEGALINTER_CONFIG=.github/config/megalinter.yaml'\"
+         --remove-container")}}}

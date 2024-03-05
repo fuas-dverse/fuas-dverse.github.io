@@ -7,5 +7,65 @@ edit_uri_template: 'blob/main/docs/{path}'
 remote_branch: gh-pages
 theme:
   name: material
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - navigation.footer
+    - navigation.indexes
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - navigation.instant.preview
+markdown_extensions:
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - tables
+# - md_in_html (BROKEN)
+#  - pymdownx.emoji:
+#      emoji_index: !!python/name:material.extensions.emoji.twemoji
+#      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+#- pymdownx.highlight:
+#    anchor_linenums: true
+#- pymdownx.inlinehilite
+#  - pymdownx.snippets:
+#    url_download: true
+#  - pymdownx.superfences:
+#      custom_fences:
+#        - name: mermaid
+#          class: mermaid
+#          format: !!python/name:pymdownx.superfences.fence_code_format
+#  - pymdownx.tabbed:
+#      alternate_style: true
+  - pymdownx.keys
+plugins:
+  - search
+  - callouts
+  - glightbox
+  - mkdocs-jupyter
+  - git-revision-date-localized:
+      fallback_to_build_date: true
+  - git-committers:
+      repository: fuas-dverse/fuas-dverse.github.io
+      branch: main
+extra:
+  social:
+    - icon: material/web
+      link: https://fhict.instructure.com/courses/13669
+    - icon: fontawesome/brands/github
+      link: https://github.co/fuas-dverse/fuas-dverse.github.io
 nav:
   - Introduction: introduction.md
+  - Notebook page: notebook.ipynb
+  - Methods: methods.md
+  - Concepts: concepts.md
+  - Technologies: tech.md
+  - Contribute:
+      - contribute.md
+      - Raindrop: raindrop.md

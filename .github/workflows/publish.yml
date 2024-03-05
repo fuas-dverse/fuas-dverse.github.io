@@ -34,7 +34,7 @@ jobs:
       - name: Setup caching
         uses: actions/cache@v3
         with:
-            key: ${{d github.sha }}
+            key: ${{ github.sha }}
             path: .cache
       - name: Build site
         run: mkdocs build --config-file ./mkdocs.yml --site-dir ./_site

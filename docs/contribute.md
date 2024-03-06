@@ -4,7 +4,7 @@ This site is a shared resource. It is meant to show off ongoing work, previous w
 
 ## Share links
 
-- via the shared [Raindrop collection](raindrop.md).
+- via the shared [Raindrop collection](Raindrop.md).
 
 ## Share thoughts, tasks etc.
 

@@ -7,7 +7,7 @@
 - You can take your current JSON and make it JSON-LD.
 - Express graph (or tree) structures.
 - JSON Context defines the mapping from JSON to the Linked Data model.
-- It is the data encoding used by [ActivityPub](activitypub.md)
+- It is the data encoding used by [ActivityPub](ActivityPub.md)
 
 
 === "JSON"

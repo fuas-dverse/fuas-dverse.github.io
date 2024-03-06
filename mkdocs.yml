@@ -28,7 +28,8 @@ markdown_extensions:
   - tables
   - toc:
       permalink: "#"
-# - md_in_html (BROKEN)
+# Following items break the build
+# - md_in_html
 #  - pymdownx.emoji:
 #      emoji_index: !!python/name:material.extensions.emoji.twemoji
 #      emoji_generator: !!python/name:material.extensions.emoji.to_svg

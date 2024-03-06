@@ -1,4 +1,3 @@
-# How to contribute
 
 This site is a shared resource. It is meant to show off ongoing work, previous work and share relevant knowledge. It is a living educational resource[^oer].
 
@@ -16,4 +15,4 @@ This site is a shared resource. It is meant to show off ongoing work, previous w
 - by forking this site's repository and creating a PR (pull-request).
 - by becoming an active committer to this site's repository.
 
-[^oer]: Open Education Resource
+[^oer]: Open Educational Resource

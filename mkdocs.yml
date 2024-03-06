@@ -49,6 +49,7 @@ plugins:
   - callouts
   - glightbox
   - mkdocs-jupyter
+  - roamlinks
   - git-revision-date-localized:
       fallback_to_build_date: true
   - git-committers:

@@ -1,5 +1,7 @@
 # Concept Library
 
+[[Activitypub]]
+
 This library of concepts represents our knowledge base and is meant to share the technical and theoretical ideas that are helpful to the development of our projects. They also help guide our future research into Digital Communities.
 
 > [!important]
@@ -35,4 +37,3 @@ graph TD;
   GR-->JLD;
   JLD-->GR;
 ```
-

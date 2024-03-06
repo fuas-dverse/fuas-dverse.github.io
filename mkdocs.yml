@@ -50,6 +50,7 @@ plugins:
   - glightbox
   - mkdocs-jupyter
   - roamlinks
+  - rss
   - git-revision-date-localized:
       fallback_to_build_date: true
   - git-committers:

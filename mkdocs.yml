@@ -74,11 +74,11 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.co/fuas-dverse/fuas-dverse.github.io
 nav:
-  - Introduction: introduction.md
   - Notebook page: notebook.ipynb
-  - Methods: methods.md
-  - Concepts: concepts.md
-  - Technologies: tech.md
+  - Methods: Methods.md
+  - Concepts: Concepts.md
+  - Technologies: Technology.md
   - Contribute:
-      - contribute.md
-      - Raindrop: raindrop.md
+      - Contribute.md
+      - Raindrop.md
+      - Markdown Guide.md

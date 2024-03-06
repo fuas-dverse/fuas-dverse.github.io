@@ -1,4 +1,3 @@
-
 For sharing links we use [Raindrop.io](https://raindrop.io). You can run it on most devices and easily share links. Use the correct topic tag for adding it.
 
 > [!note]

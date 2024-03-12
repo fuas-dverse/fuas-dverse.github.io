@@ -15,6 +15,6 @@ This site is a shared resource. It is meant to show off ongoing work, previous w
 
 - by linking from this site to your repository and importing stuff into this site.
 - by forking this site's repository and creating a PR (pull-request).
-- by becoming an active committer to this site's repository.
+- by becoming an active committer to this site's repository (and optionally using [[Obsidian]] to edit content).
 
-[^oer]: Open Educational Resource
+[^oer]: Open Educational Resources

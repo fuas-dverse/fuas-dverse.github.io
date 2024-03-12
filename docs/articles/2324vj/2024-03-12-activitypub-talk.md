@@ -29,6 +29,8 @@ Here is a simple note.
 }
 ```
 
+The `@context` tells a processor of this JSON that this is actually a JSON-LD document that uses the Activity Streams vocabulary.
+
 In order to send the note we have to add sender (`attributedTo`) and recipient (`to`).
 
 ``` json hl_lines="3 4"
@@ -77,9 +79,27 @@ object:
 The server will take messages from every outbox on the server and deliver it to the recipients inboxes.
 
 > [!note] Chatty protocol
-> One of the issues that servers face is that when they get more users the amount of work it has to do to keep up with all the activities results in a lot of messages being sent around. Suppose that I have 100 followers. This means that a message will go to 100 people's inbox. When 100 users each send out a single message the server will have to deal with 100 x 100 actions. Of course this can be alleviated by smart programming. In fact, an ex-Twitter engineer has recently created a proof of concept Mastodon clone using a [data processing framework he developed](https://softwareengineeringdaily.com/2023/12/28/rama-with-nathan-marz) during the last 10 years and that demonstrates that it could, in principle, scale to Twitter scale.
+> One of the issues that servers face is that when they get more users the amount of work it has to do to keep up with all the activities results in a lot of messages being sent around. Suppose that I have 100 followers. This means that a message will go to 100 people's inbox. When 100 users each with 100 followers send out a single message the server will have to deal with 100 x 100 actions. Of course this can be alleviated by smart programming. In fact, an ex-Twitter engineer, Nathan Marz, has recently created a proof of concept Mastodon clone using a [data processing framework he developed](https://redplanetlabs.com/mastodon-clone) during the last 10 years and that demonstrates that it could, in principle, scale to Twitter scale.
+
+## Actions
+
+On most social networks users can perform other actions besides sending notes back and forth. These actions spell out the types of actions that can be performed. Not all servers support all of these. In theory we may also extend the vocabulary by adding new types of actions. Also, when designing a different type of social network server you could, for example, consider to not provide Likes, to get rid of the competitive elements and make the network less addictive[^maven]
+
+But for now we will consider only these standard activities as most other servers probably implement them.
+
+- Create
+- Update
+- Delete
+- Follow
+- Accept
+- Reject
+- Add
+- Remove
+- Like
+- Announce
+- Undo
+
+[^maven]: ex-OpenAI researcher and professor [Kenneth Stanley](https://www.kenstanley.net/home) recently started such a different type of Social Media Network called [Maven](https://www.heymaven.com). He deliberately tries to make it less addictive by letting people follow interesting content rather than other people.
 
 To be continued
-
-
 

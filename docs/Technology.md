@@ -1,3 +1,0 @@
-# Technologies
-
-bla bla

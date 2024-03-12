@@ -7,6 +7,8 @@ edit_uri_template: 'blob/main/docs/{path}'
 remote_branch: gh-pages
 theme:
   name: material
+  palette:
+    primary: deep purple
   features:
     - announce.dismiss
     - content.action.view
@@ -75,11 +77,13 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.co/fuas-dverse/fuas-dverse.github.io
 nav:
-  - Notebook page: notebook.ipynb
-  - Methods: Methods.md
-  - Concepts: Concepts.md
-  - Technologies: Technology.md
+  - About: About.md
+  - Projects: projects/index.md
+  - Concepts: concepts/index.md
+  - Articles: articles/index.md
+  - References: References.md
   - Contribute:
-      - Contribute.md
-      - Raindrop.md
-      - Markdown Guide.md
+      - contribute/index.md
+      - contribute/Raindrop.md
+      - contribute/Markdown Guide.md
+      - contribute/Obsidian.md

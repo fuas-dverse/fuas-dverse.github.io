@@ -5,7 +5,7 @@ aliases:
   - Talking ActivityPub
 status: Draft
 ---
-
+- ! Add info about profiles
 
 # Talking ActivityPub
 

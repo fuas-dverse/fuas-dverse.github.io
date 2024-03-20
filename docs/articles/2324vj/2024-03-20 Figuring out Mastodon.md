@@ -1,15 +1,18 @@
 # Figuring out Mastodon
+
 Did you know that a single protocol, [ActivityPub](https://fuas-dverse.github.io/concepts/activitypub/), is the backbone of the entire Fediverse? This powerful tool allows data to flow freely between Mastodon servers, fostering a truly interconnected social web. Today, we'll explore ActivityPub and show you how to use it to retrieve your Mastodon data.
 
 In this article I will try to get a better understanding of the ActivityPub protocol by 'reverse engineering' and figuring out what data we can retrieve from the [Social Edu Mastodon servers](https://social.edu.nl/).
 
 ## Key ActivityPub Endpoints
+
 After having delved into the world of the ActivityPub. There are a few endpoints that we are going to explore.
 
 > [!note] Variable syntax
 > For the remainder of this article I will use the syntax {value} as variables, where value is replaced with the expected information.
 
 ### WebFinger
+
 This endpoint utilizes the [WebFinger protocol](https://en.wikipedia.org/wiki/WebFinger) to discover the ActivityPub actor associated with a specific username and domain combination.
 
 - Endpoint: `{base_url}/.well-know/webfinger?resource=acct:{username}@{domain}`
@@ -20,19 +23,23 @@ This endpoint retrieves information about a particular user on the ActivityPub s
 - Endpoint: `{base_url}/users/{username}`
 
 ### Outbox
+
 The outbox endpoint acts as the repository for ActivityStreams objects created by the user.
 
 - Endpoint: `{base_url}/users/{username}/outbox`
 
 ### Inbox
+
 The inbox endpoint serves as the designated location for receiving ActivityStreams objects directed towards the user.
 
 - Endpoint: `{base_url}/users/{username}/inbox`
 
 ## Retrieving Information
+
 In this section we will try and retrieve or post data to the [Key ActivityPub Endpoints](#Key%20ActivityPub%20Endpoints) specified in the previous section.
 
 ### WebFinger
+
 First we will start by making a HTTP-GET request to the WebFinger endpoint as this should contain the endpoint link to our user account. This endpoint can simply be opened in the browser to view the information.
 
 Input:
@@ -71,6 +78,7 @@ Output:
 ```
 
 ### User
+
 The returned JSON response in previous section contains links to the user's Mastodon profile. First we will try to get the information via the browser.
 
 Input:
@@ -218,6 +226,7 @@ Then there is an object that contains the information of the public keys, used t
 - PublicKeyPem: -----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A`{rest of key}`\nEQIDAQAB\n-----END PUBLIC KEY-----\n
 - 
 ### Outbox
+
 Now that we retrieved the inbox and outbox from the user, we will try and read the outbox using the browser, as this is the most simple way to GET the information.
 
 Input:
@@ -248,8 +257,9 @@ As we can see this JSON returns the data belonging the my outbox, the data is be
 The strange thing about this is that it the `totalItems` is 0, because I did send and receive a friend requests. So, it properly is partially protected by some kind of authentication.
 
 >[!Note]
->Even after syncing the Mastodon cookies (\_mastodon_session, \_session_id, SimpleSAML and SimpleSAMLAuthToken) with my local Postman. Its still only showed an empty outbox.
+>Even after syncing the Mastodon cookies (`_mastodon_session`, `_session_id`, `SimpleSAML` and `SimpleSAMLAuthToken`) with my local Postman. Its still only showed an empty outbox.
 ### Inbox
+
 The last thing to try and do, is to POST something to our own inbox. To do this I will use the Postman client, and use a body from the original ActivityPub specs but only change the from and to, to my own account.
 
 Input:
@@ -272,4 +282,5 @@ Output:
 > After reading the Mastodon documentation, I figured out that to POST something to someone's inbox endpoint, we need to sign the request.
 
 ## Conclusion
+
 Yet to come...

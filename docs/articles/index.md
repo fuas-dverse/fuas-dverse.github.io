@@ -4,6 +4,7 @@ A series of articles by researchers and students somehow related to the topics o
 
 - [[2024-03-13 Activity Sketching|Agent Storming]]
 - [[2024-03-12 Talking ActivityPub|Talking ActivityPub]]
+- [[2024-03-20 Figuring out Mastodon | Figuring out Mastodon]]
 
 
 

@@ -5,9 +5,9 @@ aliases:
   - Talking ActivityPub
 status: Draft
 ---
-- ! Add info about profiles
-
 # Talking ActivityPub
+
+*by Xokomola*
 
 How can we make digital and human agents talk with each other? How can we build digital communities that can be linked together into a larger landscape? It is time to get familiar with the [[Fediverse]] and brush up on the [[ActivityPub]] protocols. All messages is described using the [[JSON-LD]] format for [[Linked Data]].
 
@@ -30,7 +30,7 @@ The ActivityPub protocol provides a standardised wrapper for transporting messag
 
 ![[2024-03-12-activitypub-talk 2024-03-12 15.21.59.excalidraw.svg]]
 
-## Introducing the vocabulary 
+## Introducing the vocabulary
 
 
 An activity is a semantic description of an past, present or future action.
@@ -77,7 +77,7 @@ Describing objects is fine, but in order to share it with others we need to add 
 
 ``` yaml hl_lines="1 2"
 type: Create
-object: 
+object:
   type: Note
   attributedTo: https://dverse.fontys.nl/marc
   to:
@@ -92,7 +92,7 @@ type: Create
 id: https://dverse.fontys.nl/marc/activity/12345
 to: https://dverse.fontys.nl/ben
 actor: https://dverse.fontys.nl/marc
-object: 
+object:
   type: Note
   id: ttps://dverse.fontys.nl/marc/note/12346
   attributedTo: https://dverse.fontys.nl/marc
@@ -235,6 +235,6 @@ Note that some of these examples do have some redundancy. This is to allow unpac
 
 ## Getting started with Python and ActivityPub
 
-Most of the code you need to write is working with [JSON-LD messages](https://github.com/digitalbazaar/pyld) and transforming them. Other than that you will need a basic [ActivityPub library](https://github.com/dsblank/activitypub). 
+Most of the code you need to write is working with [JSON-LD messages](https://github.com/digitalbazaar/pyld) and transforming them. Other than that you will need a basic [ActivityPub library](https://github.com/dsblank/activitypub).
 
 There are also [ActivityPub server related repos](https://github.com/topics/activitypub-server?l=python) that you can use to learn how to make a full, working server and a [full-fledged server](https://github.com/jointakahe/takahe).

@@ -7,6 +7,8 @@ status: Draft
 ---
 # Activity Sketching
 
+*by Xokomola*
+
 - Clone the repo `https://github.com/fuas-dverse/activity-sketching`
 - Make your own folder under `Projects`
 - Create scenario outline
@@ -40,6 +42,3 @@ Later you can export your cards as files and continue working on them by providi
 		- Plan what first, what later
 	- Variation
 		- I want my friends to each cook something and bring to the party
-
-
-

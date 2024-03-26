@@ -7,6 +7,7 @@ edit_uri_template: 'blob/main/docs/{path}'
 remote_branch: gh-pages
 theme:
   name: material
+  custom_dir: custom_theme/
   palette:
     primary: deep purple
   features:
@@ -70,12 +71,22 @@ plugins:
   - git-committers:
       repository: fuas-dverse/fuas-dverse.github.io
       branch: main
+      exclude:
+        - About.md
+        - README.md
+        - References.md
+        - index.md
+        - News.md
+        - projects/index.md
+        - concepts/index.md
+        - articles/index.md
+        - contribute/**
 extra:
   social:
     - icon: material/web
       link: https://fhict.instructure.com/courses/13669
     - icon: fontawesome/brands/github
-      link: https://github.co/fuas-dverse/fuas-dverse.github.io
+      link: https://github.com/fuas-dverse/fuas-dverse.github.io
 nav:
   - About: About.md
   - Projects: projects/index.md

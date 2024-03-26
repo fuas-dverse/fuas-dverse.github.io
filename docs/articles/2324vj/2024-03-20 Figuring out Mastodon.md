@@ -1,5 +1,7 @@
 # Figuring out Mastodon
 
+*by Reno Muijsenberg*
+
 Did you know that a single protocol, [ActivityPub](https://fuas-dverse.github.io/concepts/activitypub/), is the backbone of the entire Fediverse? This powerful tool allows data to flow freely between Mastodon servers, fostering a truly interconnected social web. Today, we'll explore ActivityPub and show you how to use it to retrieve your Mastodon data.
 
 In this article I will try to get a better understanding of the ActivityPub protocol by 'reverse engineering' and figuring out what data we can retrieve from the [Social Edu Mastodon servers](https://social.edu.nl/).
@@ -224,7 +226,7 @@ Then there is an object that contains the information of the public keys, used t
 - Id: https://social.edu.nl/users/Reno#main-key
 - Owner: https://social.edu.nl/users/Reno
 - PublicKeyPem: -----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A`{rest of key}`\nEQIDAQAB\n-----END PUBLIC KEY-----\n
-- 
+-
 ### Outbox
 
 Now that we retrieved the inbox and outbox from the user, we will try and read the outbox using the browser, as this is the most simple way to GET the information.
@@ -273,7 +275,7 @@ Input:
 
 Output:
 ```json
-{ 
+{
     "error": "Request not signed"
 }
 ```

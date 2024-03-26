@@ -226,7 +226,7 @@ Then there is an object that contains the information of the public keys, used t
 - Id: https://social.edu.nl/users/Reno#main-key
 - Owner: https://social.edu.nl/users/Reno
 - PublicKeyPem: -----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A`{rest of key}`\nEQIDAQAB\n-----END PUBLIC KEY-----\n
--
+
 ### Outbox
 
 Now that we retrieved the inbox and outbox from the user, we will try and read the outbox using the browser, as this is the most simple way to GET the information.

@@ -7,7 +7,7 @@ status: Draft
 ---
 # Activity Sketching
 
-*by Xokomola*
+*by xokomola*
 
 - Clone the repo `https://github.com/fuas-dverse/activity-sketching`
 - Make your own folder under `Projects`

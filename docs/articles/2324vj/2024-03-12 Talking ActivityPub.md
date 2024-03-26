@@ -7,7 +7,7 @@ status: Draft
 ---
 # Talking ActivityPub
 
-*by Xokomola*
+*by xokomola*
 
 How can we make digital and human agents talk with each other? How can we build digital communities that can be linked together into a larger landscape? It is time to get familiar with the [[Fediverse]] and brush up on the [[ActivityPub]] protocols. All messages is described using the [[JSON-LD]] format for [[Linked Data]].
 

@@ -1,27 +1,35 @@
 site_name: Digital Communities
 site_url: https://fuas-dverse.github.io
-site_description: Reader for the 2024 Spring Semester project for Digital Communities
+site_description: Building a decentralized social network platform for human and non-human agents.
 site_author: Xokomola
 repo_url: https://github.com/fuas-dverse/fuas-dverse.github.io
 edit_uri_template: 'blob/main/docs/{path}'
+copyright: © 2024. Licensed via CC BY-NC-SA 4.0
 remote_branch: gh-pages
+use_directory_urls: false
 theme:
   name: material
   custom_dir: custom_theme/
   palette:
     primary: deep purple
   features:
+    - toc.follow
+    - toc.integrate
     - announce.dismiss
     - content.action.view
     - content.code.annotate
     - content.code.copy
     - content.tabs.link
     - navigation.footer
-    - navigation.indexes
+    #- navigation.indexes
     - navigation.top
     - navigation.instant
     - navigation.tracking
     - navigation.instant.preview
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
 markdown_extensions:
   - admonition
   - footnotes
@@ -41,6 +49,9 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.superfences:
       custom_fences:
+        - name: vega-lite
+          class: vegalite
+          format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
@@ -56,16 +67,26 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 extra_javascript:
-  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3.2.2/es5/tex-mml-chtml.min.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/vega@5 
+  - https://cdn.jsdelivr.net/npm/vega-lite@5
+  - https://cdn.jsdelivr.net/npm/vega-embed@6
+  - javascripts/mathjax.js
+  - javascripts/mermaid.js
 plugins:
   - search
+  - tags:
+      tags_file: tags.md
   - callouts
   - glightbox
   - mkdocs-jupyter
   - roamlinks
-  - rss
+  - rss:
+      categories:
+        - categories
+        - tags
   - git-revision-date-localized:
       fallback_to_build_date: true
   - git-committers:
@@ -83,8 +104,6 @@ plugins:
         - contribute/**
 extra:
   social:
-    - icon: material/web
-      link: https://fhict.instructure.com/courses/13669
     - icon: fontawesome/brands/github
       link: https://github.com/fuas-dverse/fuas-dverse.github.io
 nav:

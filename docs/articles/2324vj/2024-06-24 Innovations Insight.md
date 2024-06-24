@@ -1,6 +1,3 @@
----
-status: Draft
----
 
 https://www.fontysictinnovationlab.nl/innovations-insight/eindhoven/
 

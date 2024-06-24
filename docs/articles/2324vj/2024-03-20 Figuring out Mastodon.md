@@ -2,6 +2,8 @@
 
 *by Reno Muijsenberg*
 
+#mastodon
+
 Did you know that a single protocol, [ActivityPub](https://fuas-dverse.github.io/concepts/activitypub/), is the backbone of the entire Fediverse? This powerful tool allows data to flow freely between Mastodon servers, fostering a truly interconnected social web. Today, we'll explore ActivityPub and show you how to use it to retrieve your Mastodon data.
 
 In this article I will try to get a better understanding of the ActivityPub protocol by 'reverse engineering' and figuring out what data we can retrieve from the [Social Edu Mastodon servers](https://social.edu.nl/).

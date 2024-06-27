@@ -1,6 +1,4 @@
 ---
-tags:
-  - a/Article
 aliases:
   - Talking ActivityPub
 status: Draft

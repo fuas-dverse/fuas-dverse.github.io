@@ -1,8 +1,10 @@
+---
+tags:
+  - Mastodon
+---
 # Figuring out Mastodon
 
 *by Reno Muijsenberg*
-
-#mastodon
 
 Did you know that a single protocol, [ActivityPub](https://fuas-dverse.github.io/concepts/activitypub/), is the backbone of the entire Fediverse? This powerful tool allows data to flow freely between Mastodon servers, fostering a truly interconnected social web. Today, we'll explore ActivityPub and show you how to use it to retrieve your Mastodon data.
 

@@ -1,4 +1,6 @@
 
+- ! Article about the Innovations Insight and the Fontys Innovation lab
+
 https://www.fontysictinnovationlab.nl/innovations-insight/eindhoven/
 
 https://www.fontysictinnovationlab.nl/
@@ -7,6 +9,6 @@ https://www.fontysictinnovationlab.nl/
 ![[innovations-insight-banner.png]]
 
 
- ![[dverse-innovations-insight-poster.png]]
+
 
 

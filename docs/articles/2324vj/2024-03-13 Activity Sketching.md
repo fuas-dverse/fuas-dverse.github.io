@@ -1,6 +1,4 @@
 ---
-tags:
-  - a/Article
 aliases:
   - Activity Sketching
 status: Draft

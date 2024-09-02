@@ -4,7 +4,7 @@ This site is maintained by a few researchers and students that are working on th
 
 - [[projects/index|Spring 2024 Projects]]
 
-See the [DVerse project on GitHub](https://github.com/fuas-dverse/discussions) for more information and discussion.
+See the [DVerse project on GitHub](https://github.com/orgs/fuas-dverse/discussions) for more information and discussion.
 
 If you want to [[contribute/index|contribute]] let us know or contact [Marc van Grootel](https://github.com/xokomola).
 

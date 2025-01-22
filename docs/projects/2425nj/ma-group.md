@@ -1,3 +1,7 @@
+---
+tags:
+  - Project
+---
 # DVerse Gym
 
 **Group**

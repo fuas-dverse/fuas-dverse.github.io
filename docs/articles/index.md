@@ -2,6 +2,10 @@
 
 A series of articles by researchers and students somehow related to the topics of Digital Communities.
 
+## Autumn 2024
+
+- TBD
+
 ## Spring 2024
 
 - [[2024-03-20 Figuring out Mastodon|Figuring out Mastodon]] - Reno describes his first steps with the Mastodon API and the ActivityPub protocol.

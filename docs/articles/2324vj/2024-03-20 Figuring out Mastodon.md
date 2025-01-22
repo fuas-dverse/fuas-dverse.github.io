@@ -1,6 +1,7 @@
 ---
 tags:
   - Mastodon
+  - Article
 ---
 # Figuring out Mastodon
 

@@ -113,7 +113,7 @@ extra:
 nav:
   - About: About.md
   - Projects: projects/index.md
-  - Concepts: concepts/index.md
   - Articles: articles/index.md
+  - Resources: resources/index.md
   - Contribute: contribute/index.md
   - Tags: tags.md

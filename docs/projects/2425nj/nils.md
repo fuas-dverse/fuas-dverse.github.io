@@ -1,3 +1,7 @@
+---
+tags:
+  - Paper
+---
 # Observable Agent Coordination in Distributed Systems: A Comparative Analysis of Architectural Approaches
 
 - Nils Theres

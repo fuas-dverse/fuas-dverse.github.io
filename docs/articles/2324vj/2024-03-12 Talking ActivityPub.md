@@ -1,7 +1,7 @@
 ---
-aliases:
-  - Talking ActivityPub
-status: Draft
+tags:
+  - ActivityPub
+  - Article
 ---
 # Talking ActivityPub
 

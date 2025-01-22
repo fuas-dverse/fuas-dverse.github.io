@@ -1,7 +1,6 @@
 ---
-aliases:
-  - Activity Sketching
-status: Draft
+tags:
+  - Article
 ---
 # Activity Sketching
 

@@ -6,3 +6,5 @@ site/
 .obsidian/plugins/**/*
 !.obsidian/plugins/*/
 !.obsidian/plugins/*/data.json
+CONSENT.md
+tmp/

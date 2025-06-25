@@ -18,7 +18,6 @@ If you want to [[contribute/index|contribute]] let us know or contact [Marc van 
 - [Ming Janssen](https://github.com/MingLi9)
 - [Anna Kowalewska](https://github.com/aniakowalewska1)
 - [Eduard Pascale](https://github.com/MACHINE010101)
-- [Redouan Sammour](https://github.com/Redouansammour)
 
 **Master students**
 

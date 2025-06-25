@@ -6,10 +6,10 @@ tags:
 
 **Project Group Members**
 
-- [Jak Benev](https://github.com/mastirias95)
-- [Ming Janssen](https://github.com/MingLi9)
-- [Anna Kowalewska](https://github.com/aniakowalewska1)
-- [Eduard Pascale](https://github.com/MACHINE010101)
+- [Aiden Geggie](https://github.com/AJFG297)
+- [Beatrice Marro](https://github.com/BeaMarro)
+- [Samuel Abreu de Paulo](https://github.com/XXXX)
+- [Radislav Stefanov](https://github.com/Jeckbleck)
 
 **Semester Programme**
 

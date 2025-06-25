@@ -9,3 +9,14 @@ The DVerse project explores the building of digital places for local communities
 
 You are welcome to [[contribute/index|contribute]]? Or, visit our current [[projects/index|projects]], [[concepts/index|concepts]] or other [[articles/index|articles]].
 
+## Posters
+
+### Spring 2025
+
+![[assets/2425-dnd-poster1.png|400]]
+
+![[assets/2425-dnd-poster2.png|400]]
+
+### Autumn 2024
+
+![[assets/dverse-innovations-insight-poster.png|400]]

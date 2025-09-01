@@ -10,7 +10,16 @@ If you want to [[contribute/index|contribute]] let us know or contact [Marc van 
 
 ## Alumni
 
-### Autumn 2025
+### Spring 2025
+
+**Bachelor students**
+
+- TBD
+
+**Master students**
+
+- TBD
+### Fall 2025
 
 **Bachelor students**
 

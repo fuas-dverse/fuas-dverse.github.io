@@ -101,7 +101,6 @@ plugins:
         - References.md
         - index.md
         - News.md
-        - projects/index.md
         - concepts/index.md
         - articles/index.md
         - contribute/**
